@@ -33,4 +33,4 @@ jobs:
           echo LINE_TOKEN_N=${{ secrets.LINE_TOKEN_N }} >> .env
       - name: Gas_Notify_N.py
         run: |
-          python Gas_Notify_N.py
+          python Gas_Notify_N.py &

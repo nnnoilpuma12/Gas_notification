@@ -40,6 +40,6 @@ if __name__ == "__main__":
 
 schedule.every().day.at("08:00").do(main, send_line_notify)
 
-# while True:
-#     schedule.run_pending()
-#     time.sleep(3)
+while True:
+    schedule.run_pending()
+    time.sleep(3)
